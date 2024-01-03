@@ -35,6 +35,10 @@ app.post(SERVER_ENDPOINT, async (req, res) => {
   }
 });
 
+app.get('/test', (req, res) => {
+  res.json({message: 'Server running!'});
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
