@@ -9,7 +9,7 @@ const PORT = 3000;
 const SERVER_ENDPOINT = '/upload';
 
 // Define the destination API endpoint (ngrok in this case)
-const NGROK_API_ENDPOINT = 'https://9f81-196-219-57-238.ngrok-free.app';
+const NGROK_API_ENDPOINT = 'https://07bf-102-47-129-89.ngrok-free.app';
 app.use(bodyParser.json({ limit: '50mb' }));
 app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
